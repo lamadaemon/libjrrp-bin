@@ -27,5 +27,6 @@ PCLExport uint32_t PCLGetDayOfYear();
 PCLExport uint16_t PCLGetYear();
 PCLExport uint16_t PCLGetDay();
 PCLExport PCLRenPin PCLJrrp(char* address);
+PCLExport char* PCLStringifyJrrp(PCLRenPin rp);
 
 #endif//LIBJRRP_JRRP_H
